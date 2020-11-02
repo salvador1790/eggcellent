@@ -1,0 +1,356 @@
+body{
+    margin: 0;
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #f2b400;
+    margin-bottom: 20px;
+}
+
+.egg img{
+    width: 90px;
+    margin-right: 20px;
+    z-index: 4;
+    position: relative;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+    margin-left: 30px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+}
+
+.links a{
+    color: black;
+    text-decoration: none;
+    margin-right: 17px;
+}
+
+.snippet{
+    width: 350px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.snippet p{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0;
+}
+
+
+.text{
+    font-size: 30px;
+    margin-top: 200px;
+    margin-bottom: 20;
+}
+
+.slice2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.blob{
+    border-radius: 30% 43% 31% 42% / 74% 11% 74% 10%;
+    background-image: url("./images/pexels-anna-shvets-4045570.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 571px;
+    width: 670px;
+}
+
+.slice3{
+    padding-top: 50px;
+    margin-top: 40px;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tanegg{
+    transform-style: preserve-3d;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.tanegg img{
+    position: relative;
+    transform: translateZ(100px);
+}
+
+
+.eggstory{
+    display: flex;
+    flex-direction: row;
+}
+
+.storyTxt{
+    width: 650px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.yellowSquare{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 300px 300px;
+    border-color: transparent transparent #f2b600 transparent;
+    position: absolute;
+    margin-left: 50px;
+}
+
+.slice4{
+    height: 700px;
+    width: 100%;
+    background-color:#f2b400 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic1{
+    height: 500px;
+    width: 500px;
+    background-image: url("./images/eggsammich.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    position: absolute;
+    z-index: 1;
+    margin-right: 200px;
+}
+
+.ad1{
+    padding: 20px;
+    height: 380px;
+    width: 380px;
+    border: 2px solid white;
+    background-color: #f2b400;
+    color: white;
+    z-index: 2;
+    position: relative;
+    margin-left: 500px;
+}
+
+.ad1 h1{
+    color: white;
+    border-bottom: 8px solid white;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.ad2 h1{
+    border-bottom: 8px solid #f2b400;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.cont{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont2{
+    width: 1000px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad2{
+    padding: 20px;
+    height: 380px;
+    width: 380px;
+    border: 2px solid #f2b400;
+    background-color: white;
+    color: #f2b400;
+    z-index: 2;
+    position: relative;
+    margin-right: 500px;
+}
+
+.slice5{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic2{
+    height: 500px;
+    width: 500px;
+    background-image: url("./images/Customer+Service.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #f2b400;
+    position: absolute;
+    margin-left: 200px;
+}
+
+.slice6{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ECECEC;
+}
+
+.graphic1{
+    background-image: url("./images/otherone.png");
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.contentGraphic{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #f2b400;
+}
+
+.graphic2{
+    background-image: url("./images/6E7F4065-EC3A-495F-B9BD-739AFA210A44.png");
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slice7{
+    height: 400px;
+    width: 100%;
+    background-color: #f2b400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box{
+    width: 500px;
+    border-bottom: 3px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box a{
+    text-decoration: none;
+    color: black;
+}
+
+#email{
+    margin-top: 48px;
+    margin-bottom: 0;
+}
+
+#footerTitle{
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.smo{
+    margin-top: 20px;
+}
+
+.smo img{
+    height: 40px;
+    margin-right: 20px;
+}
+
+/*  CSS for Locations  Page */
+
+.locationBod{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map1{
+    width: 500px;
+    height: 350px;
+    background-color: blanchedalmond;
+}
+
+.mapCont{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border-top: 1px  solid black;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.locationInfo{
+    height: 350px;
+    width: 500px;
+    padding-left: 50px;
+}
+
+/*  CSS for Menu  Page */
+
+.menuCont{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menuName{
+    font-size: 30px;
+}
+
+.item{
+    width: 400px;
+    margin-left: 30px;
+}
+
+.descCont{
+    display: flex;
+    flex-direction: row;
+}
